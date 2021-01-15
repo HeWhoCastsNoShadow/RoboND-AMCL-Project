@@ -6,8 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Camera1
         - /LaserScan1
+        - /Map1
       Splitter Ratio: 0.5
     Tree Height: 363
   - Class: rviz/Selection
@@ -63,6 +63,7 @@ Visualization Manager:
       Visibility:
         Grid: true
         LaserScan: true
+        Map: true
         RobotModel: true
         Value: true
       Zoom Factor: 1
@@ -128,7 +129,7 @@ Visualization Manager:
       Max Color: 255; 255; 255
       Max Intensity: 999999
       Min Color: 0; 0; 0
-      Min Intensity: 0
+      Min Intensity: -3.48791071e-19
       Name: LaserScan
       Position Transformer: XYZ
       Queue Size: 10
@@ -140,6 +141,16 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
+      Value: true
+    - Alpha: 0.699999988
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: ""
+      Unreliable: false
+      Use Timestamp: false
       Value: true
   Enabled: true
   Global Options:
@@ -202,5 +213,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 58
-  Y: 8
+  X: 57
+  Y: -18
